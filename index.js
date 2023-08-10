@@ -11,17 +11,15 @@ let secretMessage = ['Learning', 'is', 'not', 'about', 'what', 'you', 'get', 'ea
 // Your code here
 // remove the last string of the array secretMessage.
 secretMessage.pop();
-//
-console.log(secretMessage.length);
-//
+console.log(secretMessage.length); // 17
+
 secretMessage.push('to', 'Program');
-//
 secretMessage[6] = 'right';
-//
+
 secretMessage.shift();
 secretMessage.unshift('Programming');
-secretMessage.splice(3, 6, 'know,');
-console.log(secretMessage.join(' '));
+secretMessage.splice(3, 6, 'know,')
 
 // Don't remove this line 
 module.exports = { secretMessage }
+//first commit
